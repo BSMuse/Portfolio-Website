@@ -256,8 +256,73 @@
     transform-origin: 20vw -2vh;
     box-shadow: 16vmin 0 2.9232004270264795vmin currentColor;
 } 
+.background span:nth-child(25) {
+    color: #ff5f5c;
+    top: 14%;
+    left: 74%;
+    animation-duration: 58s;
+    animation-delay: -56s;
+    transform-origin: -11vw 15vh;
+    box-shadow: 16vmin 0 2.854208146571152vmin currentColor;
+}
+.background span:nth-child(26) {
+    color: #d289d1;
+    top: 35%;
+    left: 55%;
+    animation-duration: 61s;
+    animation-delay: -88s;
+    transform-origin: 13vw -6vh;
+    box-shadow: -16vmin 0 2.5039617268958276vmin currentColor;
+}
+.background span:nth-child(27) {
+    color: #ff7f54;
+    top: 63%;
+    left: 27%;
+    animation-duration: 91s;
+    animation-delay: -93s;
+    transform-origin: -9vw 18vh;
+    box-shadow: 16vmin 0 2.674198215935878vmin currentColor;
+}
+.background span:nth-child(28) {
+    color: #d289d1;
+    top: 29%;
+    left: 11%;
+    animation-duration: 78s;
+    animation-delay: -84s;
+    transform-origin: 22vw 5vh;
+    box-shadow: 16vmin 0 2.786975836714581vmin currentColor;
+}
+.background span:nth-child(29) {
+    color: #ff5f5c;
+    top: 48%;
+    left: 71%;
+    animation-duration: 74s;
+    animation-delay: -46s;
+    transform-origin: -15vw -8vh;
+    box-shadow: -16vmin 0 2.928644738378591vmin currentColor;
+}
+
+
 
 main {
     position: relative;  /* Ensure the main content has a higher priority */
     z-index: 2;
+  } 
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* This is for a 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
   }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
